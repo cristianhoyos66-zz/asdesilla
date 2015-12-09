@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JMenuBar" name="jMenuBar2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JMenuItem" name="jMenuItem2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenuItem2"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JMenu" name="jMenu2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenu2"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JMenuItem" name="jMenuItem4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenuItem4"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JMenu" name="jMenu3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenu3"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JMenuBar" name="jMenuBar3">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JMenuBar" name="jMenuBar4">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JMenuItem" name="jMenuItem6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenuItem6"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JMenuBar" name="jMenuBar5">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JMenuItem" name="jMenuItem1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenuItem1"/>
+      </Properties>
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="MenuPpal">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="JMenuUsuarios">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Usuarios"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemUsuarios">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+U"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/user-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Usuarios"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemUsuariosActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuProfesionales">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Profesionales"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemProfesionales">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+P"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/professional-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Profesionales"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemProfesionalesActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuCaballos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Caballos"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemCaballos">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+C"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/horse-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Caballos"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemCaballosActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuFamiliares">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Familiares"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemFamiliares">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+F"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/family-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Familiares"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemFamiliaresActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuPacientes">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pacientes"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemPacientes">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+P"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/Patients-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Pacientes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemPacientesActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuDiagnostico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Diagn&#xf3;stico"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemEvaluacion">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+D"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/evaluation-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Evaluaci&#xf3;n"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemEvaluacionActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenuTerapias">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Terapias"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="JMenuClinicas">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/clinic therapies icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cl&#xed;nicas"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="JMenuItemFisioterapia">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+F"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Imagenes/fisioterapia-icon.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Fisioterapia"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemFisioterapiaActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+                  </AuxValues>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="JMenuItemFonoaudiologia">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+L"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Imagenes/fonoaudiologia-icon.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Fonoaudiolog&#xed;a"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemFonoaudiologiaActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+                  </AuxValues>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="JMenuItemPsicologia">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Alt+S"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Imagenes/psicologia-icon.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Psicolog&#xed;a"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemPsicologiaActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+                  </AuxValues>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemTerapiasAlternativas">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+A"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/alternative therapies icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Alternativas"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemTerapiasAlternativasActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuAnexos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Anexos"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemConsentimientos">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+C"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/agreement-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Consentimientos"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemConsentimientosActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemProgrTerapeutica">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+E"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/therapeutic programming icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Programaci&#xf3;n Terap&#xe9;utica"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemProgrTerapeuticaActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuInforme">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Informe"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemInforme">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+H"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/medical-report-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Informe"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemInformeActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuAyuda">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ayuda"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="JMenuDoc">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/documentation-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Documentaci&#xf3;n"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="JMenuItemManualU">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+S"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Imagenes/user-manual-icon.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Manual de Usuario"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemManualUActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="JMenuItemManualT">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+T"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Imagenes/technical-manual-icon.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Manual T&#xe9;cnico"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemManualTActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemAcercaDe">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+A"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/about-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Acerca de..."/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemAcercaDeActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuSalir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Salir"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMenuItemSalir">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+X"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/Log-Out-icon.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Salir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuItemSalirActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+    <Property name="title" type="java.lang.String" value="Men&#xfa; Asdesilla"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="MenuPpal"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jLabel1" min="-2" pref="466" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagenes/menu - 2.png"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

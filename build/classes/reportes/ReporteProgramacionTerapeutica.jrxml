@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ReporteProgramacionTerapeutica" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="fd777574-8f06-4ee7-82b3-7e68956bf5be">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="idHistoriaClinica" class="java.lang.Integer"/>
+	<parameter name="fecha" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT tbl_planeacion_terapeutica.FechaDiligencia, CONCAT(tbl_pacientes.Nombre, SPACE(2), tbl_pacientes.Apellido1, SPACE(2), tbl_pacientes.Apellido2), tbl_forma_ensenanza.NombreFormaEnsenanza, tbl_planeacion_terapeutica.Antecedentes, tbl_planeacion_terapeutica.ObjGeneral, tbl_planeacion_terapeutica.ObjEspecificos, tbl_planeacion_terapeutica.Estrategia, tbl_planeacion_terapeutica.MaterialDidactico, tbl_planeacion_terapeutica.Comentarios FROM tbl_planeacion_terapeutica
+INNER JOIN tbl_historia_clinica ON tbl_historia_clinica.IdHistoriaClinica = tbl_planeacion_terapeutica.IdHistoriaClinica
+INNER JOIN tbl_forma_ensenanza ON tbl_forma_ensenanza.IdFormaEnsenanza = tbl_planeacion_terapeutica.FormaEnsenanza
+INNER JOIN tbl_pacientes ON tbl_pacientes.IdPaciente = tbl_historia_clinica.IdPaciente
+WHERE tbl_planeacion_terapeutica.IdHistoriaClinica = $P{idHistoriaClinica} and tbl_planeacion_terapeutica.FechaDiligencia = $P{fecha};]]>
+	</queryString>
+	<field name="FechaDiligencia" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CONCAT(tbl_pacientes.Nombre, SPACE(2), tbl_pacientes.Apellido1, SPACE(2), tbl_pacientes.Apellido2)" class="java.lang.String"/>
+	<field name="NombreFormaEnsenanza" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Antecedentes" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ObjGeneral" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ObjEspecificos" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Estrategia" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="MaterialDidactico" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Comentarios" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<staticText>
+				<reportElement x="43" y="29" width="388" height="43" forecolor="#006699" backcolor="#006699" uuid="741dd123-5265-425f-8758-b6109d663152"/>
+				<textElement>
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PROGRAMACIÓN TERAPÉUTICA]]></text>
+			</staticText>
+			<image>
+				<reportElement x="452" y="0" width="92" height="72" uuid="dc78fafc-d888-4b9a-925d-0a198d6e7eaa"/>
+				<imageExpression><![CDATA["Imagenes/logoReporte.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="1"/>
+	</pageHeader>
+	<columnHeader>
+		<band/>
+	</columnHeader>
+	<detail>
+		<band height="454">
+			<textField isStretchWithOverflow="true">
+				<reportElement x="260" y="36" width="192" height="20" uuid="4f35c817-1281-4e97-bb38-7feda298c641"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{FechaDiligencia}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="260" y="75" width="192" height="20" uuid="7b929418-2f3b-4e8c-8e4a-91c0d995c76d"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CONCAT(tbl_pacientes.Nombre, SPACE(2), tbl_pacientes.Apellido1, SPACE(2), tbl_pacientes.Apellido2)}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="260" y="115" width="192" height="20" uuid="d36bc561-3fdd-488d-8f94-17fe20eeb587"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NombreFormaEnsenanza}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="260" y="155" width="192" height="20" uuid="f5dc4d91-8d83-4825-8ebc-0954cd2ffa4e"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Antecedentes}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="260" y="194" width="192" height="20" uuid="0c9625a4-9f5c-45b5-85fd-442f16a373c4"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ObjGeneral}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="260" y="236" width="192" height="20" uuid="3ca6daf3-8c32-449e-ba06-d069c310d299"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ObjEspecificos}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="260" y="280" width="192" height="20" uuid="7ebce1cb-d7ea-4d85-a207-81883daae955"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Estrategia}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="260" y="322" width="192" height="20" uuid="9ddf35c1-2ed3-4f88-ac91-2be4e159337a"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{MaterialDidactico}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="260" y="364" width="192" height="20" uuid="37163044-98fc-49cb-9ee3-360c30d643d3"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Comentarios}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="43" y="75" width="87" height="20" forecolor="#006699" backcolor="#FFFFFF" uuid="fed91433-6295-4f1c-93a2-e5a65fedbaa4"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Paciente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="43" y="37" width="69" height="20" forecolor="#006699" backcolor="#FFFFFF" uuid="457ffa95-ba36-4a89-8a07-4ba521833336"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fecha]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="43" y="115" width="175" height="20" forecolor="#006699" backcolor="#FFFFFF" uuid="840053ba-fab2-4505-9501-6a16252155f5"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Forma de Enseñanza]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="43" y="155" width="122" height="20" forecolor="#006699" backcolor="#FFFFFF" uuid="dbb1e5c8-a6c9-4b99-b399-1c6934e8e16d"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Antecedentes]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="43" y="194" width="141" height="20" forecolor="#006699" backcolor="#FFFFFF" uuid="3d1d59d4-e6da-47a8-9ff3-8910351aa12a"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Objetivo General]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="43" y="236" width="175" height="20" forecolor="#006699" backcolor="#FFFFFF" uuid="d675ce8d-bc4d-4e47-8098-879aa0b8046e"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Objetivos Especificos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="43" y="280" width="100" height="20" forecolor="#006699" backcolor="#FFFFFF" uuid="36cb6f8e-019b-4b93-a8c0-e0430fce28ef"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Estrategia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="43" y="322" width="156" height="20" forecolor="#006699" backcolor="#FFFFFF" uuid="4e8a3ecf-b887-42e4-890b-1b73d289ae34"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Material Didactico]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="43" y="364" width="122" height="20" forecolor="#006699" backcolor="#FFFFFF" uuid="21bb15a9-90ed-47f2-a2c7-c70aa4df8952"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Comentarios]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#FFFFFF" uuid="848f85fc-c0bd-420a-b7b1-43a7845492d3"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#FFFFFF" uuid="21f88bdd-ffc4-43eb-99a2-b500e6a3c16c"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="dd3f01f1-d4d9-482f-b562-a61f84ac9bf8"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>
