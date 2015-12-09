@@ -23,7 +23,7 @@ public class Conexion {
 
             String url = "jdbc:mysql://localhost/asdesilla_db";
             String usuario = "root";
-            String contraseña = "root";
+            String contraseña = "";
             Class.forName("com.mysql.jdbc.Driver");
             conectar = DriverManager.getConnection(url, usuario, contraseña);
 
